@@ -1,0 +1,62 @@
+Q1. List 5 difference between Browser JS(console) v Nodejs.
+
+Ans- The differences between Browser JS(console) and Nodejs are as follows-
+
+Browser JS(console):
+
+i) Browser js is used for client side applications and it gets executed only in browser.
+ii) Browser js has its access limited to the browser.
+iii) Browser JS(console) has a "window" which is predefined global object which has functions and attributes, which deals with window that has been drawn.
+iv) In browser, there is another predefined object called "location" that has all the information about the url we have loaded.
+v) In browser JS we find another predefined global variable called "document" which consists of HTML which is rendered.
+vi) Browsers may have an object named "global" which is similar to "window".
+vii) Browsers do not have predefined "require" object. The user may include it in the app for asynchronous file loading.
+viii) In browser JS that is client side Javascript moduling is not mandatory.
+ix) Browser js runs in any engine like V8, Javascript core, Spider monkey, etc.
+x) In browser js one cannot control the access of browsers for visitors.
+
+Node js :
+
+i) Nodejs is used for server side applications and it gets executed outside browser.
+ii) Nodejs has full system access so it can read and write to file system.
+iii) Node does not have a predefined "window" object because it does not extract or draws anything from a window.
+iv) Node does not require "location" object as "location" object is related to a particular url that is it is for page specific.
+v) Node does not have "document" object as Nodejs never has to render anything in a page.
+vi) Nodejs contains "global" object which is a predefined global object. It contains several functions that are not available in browsers as the functions are needed for server side works only.
+vii) Node has predefined "require" object which is used to include modules in the application.
+viii) In Nodejs, everything is kept inside a module.
+ix) Node js runs only in V8 engine.
+x) In Node js unless a open source application is created, one can control the access of particular version of node js in which the application will run.
+
+
+Q2. Watch & summary 5 points-
+
+Ans- i. Browser renders a website by the following process-
+parse html+parse CSS----->Render tree------>Layout------>Paint
+ii. Parsing in html is done by-
+Script execution---->tokenizer---->Tree Construction------>DOM------>Script execution
+iii. For handling <script>, <style> speculative parsing is used else it will interrupt the parsing process if script or style occurs. Script tag to be kept ar bottom for uninterrupted parsing.
+iv. Parsing of CSS is done then DOM and CCOM are combined to form render tree. Render tree is like a multiple tree which renders objects, styles,layers,line boxes.
+v. Then layout and paint is done.
+
+Q4. Execute the below code and write your description in txt file
+a. typeof(1)
+Ans- number
+b. typeof(1.1)
+Ans- number
+c. typeof('1.1')
+Ans- string
+d. typeof(true)
+Ans- boolean
+e. typeof(null)
+Ans- object
+f. typeof(undefined)
+Ans- undefined
+g. typeof([])
+Ans- object
+h. typeof({})
+Ans- object
+i. typeof(NaN)
+Ans- number
+
+NOTE- Console output attached in github repository. 
